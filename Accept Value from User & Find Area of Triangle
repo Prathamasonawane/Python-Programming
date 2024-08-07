@@ -1,0 +1,10 @@
+b=float(input("Enter Base:"))
+h=float(input("Enter Height:"))
+a=0.5*b*h
+print("Area of Triangle=",a)
+========================================================================================
+Output:
+Enter Base: 5.7
+Enter Height: 3.8
+
+Area of Triangle= 10.83
