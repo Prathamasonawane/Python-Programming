@@ -1,0 +1,13 @@
+n=int(input("Enter Number:"))
+for i in range(2,n):
+    if n%i==0:
+        break
+    if i==n-1:
+        print("Number is Prime")
+    else:
+        print("Number is not Prime")
+=========================================================
+Output:-
+Enter Number: 15
+
+Number is not Prime
