@@ -1,0 +1,11 @@
+#Check number is even or odd
+n=int(input("Enter NUmber"))
+if(n%2==0):
+    print("Number Even")
+else:
+    print("Number Odd")
+==================================
+Output:-
+Enter NUmber 7
+
+Number Odd
