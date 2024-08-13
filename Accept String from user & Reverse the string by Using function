@@ -1,0 +1,11 @@
+#Write a python program to Reverse the string by Using function..
+def reverse(s):
+    return(s[::-1])
+s=input("Enter String:")
+print("Reverse String=",reverse(s))
+=====================================================
+Output:
+Enter String: Prathama
+
+Reverse String= amahtarP
+
