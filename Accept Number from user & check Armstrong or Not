@@ -1,0 +1,17 @@
+n=int(input("Enter The Number:"))
+s=0
+t=n
+while t>0:
+    r=t%10
+    s=s+r*r*r
+    t=t//10
+if n==s:
+    print("Number is Armstrong")
+else:
+    print("Number is Not Armstrong")
+========================================================
+Output:-
+Enter The Number: 153
+
+Number is Armstrong
+
