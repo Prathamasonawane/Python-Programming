@@ -1,0 +1,12 @@
+x=int(input("Enter The Base:"))
+y=int(input("Enter The Exponent:"))
+power=1
+for i in range(y):
+    power=power*x
+print(power)
+=================================
+Output:-
+Enter The Base: 5
+Enter The Exponent: 3
+
+125
