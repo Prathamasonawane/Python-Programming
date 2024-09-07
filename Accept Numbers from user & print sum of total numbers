@@ -1,0 +1,11 @@
+num=input("Enter the Number")
+sum=0
+for i in num:
+    sum=sum+int(i)
+print(sum)
+============================================
+Output:-
+Enter the Number 123456
+
+21
+
