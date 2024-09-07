@@ -1,0 +1,12 @@
+s=input("Enter String:")
+v=['a','e','i','o','u','A','E','I','O','U']
+c=0
+for ch in s:
+    if ch in v:
+        c=c+1
+print("Vowels Count=",c)
+========================================
+Output:-
+Enter String: Shree Swami Samrth
+
+Vowels Count= 5
