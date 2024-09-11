@@ -1,0 +1,20 @@
+Que:-Print file Using readline()...
+...Abc.txt...
+Prathama 
+Rajendra
+Sonawane
+-------------------------------------
+f1=open("Abc.txt","r")
+while True:
+    s=f1.readline()
+    if s=="":
+        break
+    print(s)
+f1.close()
+------------------------------------------
+output:-
+Prathama 
+
+Rajendra
+
+Sonawane
